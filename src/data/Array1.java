@@ -12,12 +12,14 @@ public class Array1 {
 		nums[9] = 2;
 
 		System.out.println(nums.length);
+		
 		for (int i =0; i < nums.length; i++) {
 			nums[i] = i * 10;
 		}
 
-		for (int i = 0; i < nums.length; i++) {
-			System.out.println(nums[i]);
+		for (int e = 0; e < nums.length; e++) {
+			System.out.println(nums[e]);
 		}
+	
 	}
 }
