@@ -8,6 +8,8 @@ public class StringEquals2 {
 		System.out.println(se1.str);
 		StringEquals2 se2 = new StringEquals2();
 		System.out.println(se1.str==se2.str);
+		System.out.println(se1.str.equals(se2.str));
+		
 		
 		
 	}
