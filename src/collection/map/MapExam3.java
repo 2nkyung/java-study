@@ -21,7 +21,7 @@ public class MapExam3 {
 		List<HashMap<String, Object>> catList = new ArrayList<>();
 		for (int i = 0; i < 10; i++) {
 			cat.put("name", "");
-			cat.put("age", );
+			cat.put("age", "");
 			catList.add(cat);
 		}
 	}
