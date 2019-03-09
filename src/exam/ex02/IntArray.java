@@ -32,16 +32,16 @@ public class IntArray {
 		}
 
 		// 오름차순 ; 작 -> 큰 순서
-		for (int i = 0; i < ia.nums.length; i++) {
-			for (int j = i + 1; j < ia.nums.length; j++) {
-				if (ia.nums[i] > ia.nums[j]) {
-					int tmp = ia.nums[i];
-					ia.nums[i] = ia.nums[j];
-					ia.nums[j] = tmp;
+//		for (int i = 0; i < ia.nums.length; i++) {
+//			for (int j = i + 1; j < ia.nums.length; j++) {
+//				if (ia.nums[i] > ia.nums[j]) {
+//					int tmp = ia.nums[i];
+//					ia.nums[i] = ia.nums[j];
+//					ia.nums[j] = tmp;
 					// 자리를 바꿔주기
-				}
-			}
-		}
+//				}
+//			}
+//		}
 
 		for (int i = 0; i < ia.nums.length; i++) {
 			System.out.println("ia.nums[" + i + "]=" + ia.nums[i]);

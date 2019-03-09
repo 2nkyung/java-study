@@ -10,7 +10,7 @@ public class ClassExam {
 	}
 
 	public static void main(String[] args) {
-		int a = 1;
+		//int a = 1;
 		ClassExam ce = new ClassExam();
 		System.out.println(ce.a);
 		System.out.println(ce.c);

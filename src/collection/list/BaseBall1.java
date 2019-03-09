@@ -30,8 +30,10 @@ public class BaseBall1 {
 		int sCnt = 0;
 		for (int i = 0; i < nums.length; i++) {
 			if (numList.indexOf(nums[i]) != -1) {
-				System.out.println("1B");
-				sCnt++;
+				if(i==numList.indexOf(nums[i])) {
+					sCnt++;
+				}
+				
 			} else {
 				bCnt++;
 			}
